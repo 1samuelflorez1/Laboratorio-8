@@ -36,12 +36,12 @@ function mostrarTareas() {
 
     const btnOk = document.createElement('button')
     btnOk.className = 'btn_ok'
-    btnOk.textContent = 'Completado'
+    btnOk.textContent = '✔︎'
     btnOk.onclick = () => completarTarea(index)
 
     const btnEliminar = document.createElement('button')
     btnEliminar.className = 'btn_eliminar'
-    btnEliminar.textContent = 'Eliminar'
+    btnEliminar.textContent = '✘'
     btnEliminar.onclick = () => eliminarTarea(index)
 
     botonesDiv.appendChild(btnOk)

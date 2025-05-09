@@ -98,16 +98,19 @@ input {
 
 .completada {
   text-decoration: line-through;
-  color: rgb(3, 250, 3);
-  background-color: black;
+  color: rgb(255, 255, 255);
+  background-color: #305c7b;
   border: none;
 }
 
 /* Iconos */
 
 .btn_ok {
-  margin: 4px;
+  border-radius: 10px;
+  margin: 5px;
   padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 20px;
   cursor: pointer;
   background-color: rgb(153, 181, 61);
@@ -118,8 +121,11 @@ input {
 }
 
 .btn_eliminar {
-  margin: 4px;
+  border-radius: 10px;
+  margin: 5px;
   padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 20px;
   cursor: pointer;
   background-color: rgb(220, 170, 154);
